@@ -1,3 +1,3 @@
 # DevOps_Project
 
-git -> jenkins->sonar-> Docker
+maven->git -> jenkins->sonar-> Docker
