@@ -9,6 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/calculator")
 public class calculationRequestHandler {
 
+    
+    @GetMapping("/helloWord")
+    public String helloWorld2(){
+       
+        return "HelloWorld";
+    }
+
     @GetMapping("/calculate/{num1}/{operation}/{num2}")
     public String helloWorld(@PathVariable("num1") String num1, @PathVariable("num2") String num2, @PathVariable("operation") String op) throws NumberFormatException{
         try {
@@ -22,11 +29,6 @@ public class calculationRequestHandler {
         
     }
 
-    @GetMapping("/helloWord")
-    public String helloWorld2(){
-       
-        return "HelloWorld";
-    }
 
     public double Calculator(String num1, String num2, String operation){
         Double n1 = Double.parseDouble(num1);
