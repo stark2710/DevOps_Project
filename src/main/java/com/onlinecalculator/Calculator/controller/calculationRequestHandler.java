@@ -22,6 +22,12 @@ public class calculationRequestHandler {
         
     }
 
+    @GetMapping("/helloWord")
+    public String helloWorld2(){
+       
+        return "HelloWorld";
+    }
+
     public double Calculator(String num1, String num2, String operation){
         Double n1 = Double.parseDouble(num1);
         Double n2 = Double.parseDouble(num2);
