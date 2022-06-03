@@ -1,5 +1,5 @@
 applications:
-  - name: calculator_devops
+  - name: calculatordevops
     host: calculatordevops
     path: target/java-jenkins-docker.jar
     domain: cfapps.us10.hana.ondemand.com
