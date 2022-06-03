@@ -1,6 +1,6 @@
 applications:
-  - name: calculator
-    host: calculator
+  - name: calculator_devops
+    host: calculatordevops
     path: target/java-jenkins-docker.jar
     domain: cfapps.us10.hana.ondemand.com
     memory: 1G
