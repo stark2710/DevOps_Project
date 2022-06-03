@@ -22,4 +22,13 @@ public class CalculatorTest {
     public void testTest2(){
         
     }
+// Testcase added
+    @Test
+    public void testTest3(){
+        
+    }
+    @Test
+    public void testTest4(){
+        
+    }
 }
