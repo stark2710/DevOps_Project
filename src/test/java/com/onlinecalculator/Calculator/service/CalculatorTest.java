@@ -13,4 +13,9 @@ public class CalculatorTest {
         double output = calculator.CalculatorMethod("5", "4", "+");
         assertEquals(9.0D,output, "Passed");
     }
+
+    @Test
+    public void testTest(){
+        
+    }
 }
