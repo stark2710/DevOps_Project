@@ -18,4 +18,8 @@ public class CalculatorTest {
     public void testTest(){
         
     }
+    @Test
+    public void testTest2(){
+        
+    }
 }
