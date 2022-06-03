@@ -1,7 +1,7 @@
 package com.onlinecalculator.Calculator.service;
 
 import org.springframework.context.annotation.Configuration;
-
+//Comment to test
 @Configuration
 public class Calculator {
     public double CalculatorMethod(String num1, String num2, String operation){
